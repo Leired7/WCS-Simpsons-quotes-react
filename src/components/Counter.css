@@ -1,0 +1,8 @@
+.Counter{
+    height: 200px;
+    display: flex;
+}
+
+h1{
+    font-size: 1em;
+}
