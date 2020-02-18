@@ -3,9 +3,9 @@ import './Navbar.css'
 
 function Navbar (){
     return(
-    <div className="navbar">
-    <a href="https://en.wikipedia.org/wiki/The_Simpsons">Simpons Quotes</a>
-    </div>
+    <nav className="Navbar">
+        <a href="https://en.wikipedia.org/wiki/The_Simpsons">Simpons Quotes</a>
+    </nav>
     );
 }
 
