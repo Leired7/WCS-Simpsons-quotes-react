@@ -34,15 +34,15 @@ const quotes = [
 
 const QuoteList = () => (
   <div>
-    {quotes.map(item => (
+    {quotes.map((item,index) => (
       <QuoteCard
-        key={item.quote}
+        key={index}
         quote={item.quote}
         image={item.image}
         character={item.character}
       />
     ))}
   </div>
-);
+)
 
 export default QuoteList;
